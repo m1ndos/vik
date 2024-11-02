@@ -11,10 +11,10 @@ public class DoorController : MonoBehaviour
     private void Update()
     {
         // Проверка нажатия левой кнопки мыши
-        if (Input.GetMouseButtonDown(0)) // 0 - левая кнопка мыши
-        {
-            OnHandleGrab();
-        }
+        // if (Input.GetMouseButtonDown(0)) // 0 - левая кнопка мыши
+        // {
+        //     OnHandleGrab();
+        // }
     }
 
     // Метод, который будет вызываться, когда пользователь хватает ручку или нажимает кнопку мыши
